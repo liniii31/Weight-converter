@@ -1,2 +1,3 @@
 # Weight-converter
-Javascript,Html/CSS
+
+![Design page](./Design.png)
