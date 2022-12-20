@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+}
+main{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#calc{
+    text-align: center;
+}
+#calc h1{
+    color:white;
+    font-size: 50px;    
+}
+#display{
+    display:flex;
+    flex-direction: column;
+}
+#grams{
+    background-color: rgb(237, 75, 75);
+}
+#Kilograms{
+    background-color: rgb(118, 221, 118);
+}
+#Ounces{
+    background-color: rgb(53, 53, 234);
+}
+#grams, #Kilograms, #Ounces{
+    color:white;
+    font-size: 27px;
+}
+#grams, #Kilograms, #Ounces, input{
+    margin:5px;
+}
+input{
+    height : 50px;
+    width:400px;
+}
